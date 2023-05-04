@@ -7,7 +7,9 @@
 }
 
 #header {
-  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #search {
@@ -117,7 +119,6 @@ span {
   color: #00ccff;
   font-family: cursive;
   font-size: 20px;
-  margin-left: 17%;
 }
 
 #main_heading {
@@ -135,4 +136,13 @@ span {
   background-color: #083464;
   padding: 2rem;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 630px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
