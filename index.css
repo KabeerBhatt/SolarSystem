@@ -1,135 +1,138 @@
 #body {
-    display: flex;
-    background-image: url('images/Universe.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  background-image: url("images/Universe.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #header {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #search {
-    position: relative;
-    border-radius: 10px;
-    padding: 10px;
-    width: 40%;
-    height: 20px;
-    font-size: 20px;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+  height: 20px;
+  font-size: 20px;
 }
 
-
 #link {
-    color: white;
-    float: right;
-    font-size: 20px;
-    margin-right: 3%;
-    margin-top: 1%;
+  color: white;
+  float: right;
+  font-size: 20px;
+  margin-right: 3%;
+  margin-top: 1%;
 }
 
 #content {
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .planets {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 2px 2px 30px rgb(248, 245, 245);
-    margin: 45px;
-    border-radius: 10px;
-    overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 30px rgb(248, 245, 245);
+  margin: 45px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .planets:hover {
-    transform: translateY(-15px);
-    transition: all ease 0.2s;
-    cursor: pointer;
+  transform: translateY(-15px);
+  transition: all ease 0.2s;
+  cursor: pointer;
 }
 
 #main {
-    display: flex;
+  display: flex;
 }
 
 #close {
-    display: block;
-    width: 50px;
-    height: 20px;
-    color: black;
-    padding: 5px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 7%;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: #00ccff;
+  display: block;
+  width: 50px;
+  height: 20px;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 7%;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #00ccff;
 }
 
 #close:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
-
 #hidden {
-    margin-top: -2%;
-    width: 400px;
-    height: 60em;
-    display: none;
-    position: fixed;
-    right: 0;
-    background-color: white;
+  margin-top: -2%;
+  width: 400px;
+  height: 60em;
+  display: none;
+  position: fixed;
+  right: 0;
+  background-color: white;
 }
 
 span {
-    opacity: 0.9;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    background-color: #0884a3;
+  opacity: 0.9;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: #0884a3;
 }
 
-
 #para {
-    display: block;
-    text-align: center;
-    margin-top: 18%;
-    margin-left: 33.5%;
-    width: 400px;
-    position: fixed;
-    height: 200px;
-    background-color: #083464;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 #output {
-    font-family: cursive;
-    color: #00ccff;
-    margin-top: 10%;
+  font-family: cursive;
+  color: #00ccff;
+  margin-top: 10%;
 }
 
 #label {
-    color: #00ccff;
-    font-family: cursive;
-    font-size: 20px;
-    margin-left: 17%;
+  color: #00ccff;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 17%;
 }
 
 #main_heading {
-    margin-top: -2%;
-    text-align: center;
-    font-family: Georgia;
-    color: #00ccff;
-    font-size: 25px;
-    opacity: 0.8;
+  margin-top: -2%;
+  text-align: center;
+  font-family: Georgia;
+  color: #00ccff;
+  font-size: 25px;
+  opacity: 0.8;
+}
 
+#center {
+  display: flex;
+  flex-direction: column;
+  background-color: #083464;
+  padding: 2rem;
+  border-radius: 10px;
 }

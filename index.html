@@ -1,71 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="Space-Time.jpg" />
     <title>Space-Time Continuum | Kabeer</title>
-</head>
+  </head>
 
+  <link rel="stylesheet" href="index.css" />
 
-<link rel="stylesheet" href="index.css" />
-
-<body id="body">
+  <body id="body">
     <div id="main">
-        <div id="display">
-            <div id="main_heading">
-                <h1>The Universe is a Mysterious Thing</h1>
-            </div>
-            <div id="header">
-                <label id="label">Enter your Weight here: </label>
-                <input type="text" placeholder="Search" name="search" id="search">
-            </div>
-            <div id="content">
-                <div class="planets" style="background-image: url('images/Sun.jpg');" onclick="Output('Sun');">
-                    <span>Sun</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Mercury.jpg');" onclick="Output('Mercury');">
-                    <span>Mercury</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Venus.jpg');" onclick="Output('Venus');">
-                    <span>Venus</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Earth.jpg');" onclick="Output('Earth');">
-                    <span>Earth</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Mars.jpg');" onclick="Output('Mars');">
-                    <span>Mars</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Jupiter.jpg');" onclick="Output('Jupiter');">
-                    <span>Jupiter</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Saturn.jpg');" onclick="Output('Saturn');">
-                    <span>Saturn</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Uranus.jpg');" onclick="Output('Uranus');">
-                    <span>Uranus</span>
-                </div>
-                <div class="planets" style="background-image: url('images/Neptune.jpg');" onclick="Output('Neptune');">
-                    <span>Neptune</span>
-                </div>
-            </div>
+      <div id="display">
+        <div id="main_heading">
+          <h1>The Universe is a Mysterious Thing</h1>
+        </div>
+        <div id="header">
+          <label id="label">Enter your Weight here: </label>
+          <input type="text" placeholder="Search" name="search" id="search" />
+        </div>
+        <div id="content">
+          <div
+            class="planets"
+            style="background-image: url('images/Sun.jpg')"
+            onclick="Output('Sun');"
+          >
+            <span>Sun</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Mercury.jpg')"
+            onclick="Output('Mercury');"
+          >
+            <span>Mercury</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Venus.jpg')"
+            onclick="Output('Venus');"
+          >
+            <span>Venus</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Earth.jpg')"
+            onclick="Output('Earth');"
+          >
+            <span>Earth</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Mars.jpg')"
+            onclick="Output('Mars');"
+          >
+            <span>Mars</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Jupiter.jpg')"
+            onclick="Output('Jupiter');"
+          >
+            <span>Jupiter</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Saturn.jpg')"
+            onclick="Output('Saturn');"
+          >
+            <span>Saturn</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Uranus.jpg')"
+            onclick="Output('Uranus');"
+          >
+            <span>Uranus</span>
+          </div>
+          <div
+            class="planets"
+            style="background-image: url('images/Neptune.jpg')"
+            onclick="Output('Neptune');"
+          >
+            <span>Neptune</span>
+          </div>
+        </div>
+      </div>
+      <div id="hidden">
+        <div id="close" onclick="Close()">Close</div>
+      </div>
 
+      <div id="para">
+        <div id="center">
+          <div id="output"></div>
+          <div id="close" onclick="Close_p()">Close</div>
         </div>
-        <div id="hidden">
-            <div id="close" onclick="Close()">Close</div>
-        </div>
-        <div id="para">
-            <div id="output"></div>
-            <div id="close" onclick="Close_p()">Close</div>
-        </div>
-
+      </div>
     </div>
 
-    <script src="index.JS">
-
-    </script>
-</body>
-
+    <script src="index.JS"></script>
+  </body>
 </html>
