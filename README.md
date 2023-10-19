@@ -1,2 +1,2 @@
-# Site is live at: 
+# Site is live at : 
 https://kabeerbhatt.github.io/SolarSystem/
